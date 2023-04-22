@@ -2,7 +2,7 @@
 using namespace std;
 
 void calcularDieta(int peso, string sexo, int edad, double altura) {
-    if (peso >= 45 && peso <= 65 && sexo == "m" && edad >= 12 && edad <= 14 && altura >= 1.45 && altura <= 1.65) {
+    if (peso >= 35 && peso <= 65 && sexo == "m" && edad >= 12 && edad <= 14 && altura >= 1.45 && altura <= 1.70) {
         cout << "Breakfast\n:" << endl;
         cout << "1 cup low-fat milk" << endl;
         cout << "1 serving of whole grains (such as oatmeal, whole wheat, or brown rice)" << endl;
@@ -24,7 +24,7 @@ void calcularDieta(int peso, string sexo, int edad, double altura) {
         cout << "late night snack:\n" << endl;
         cout << "1 serving of fresh fruit (such as apples, grapes, or kiwis)" << endl;
         cout << "1 serving of nuts or seeds (such as walnuts, pistachios, or sunflower seeds\n)" << endl;
-    } else if (peso >= 40 && peso <= 65 && sexo == "f" && edad >= 12 && edad <= 14 && altura >= 1.40 && altura <= 1.65) {
+    } else if (peso >= 35 && peso <= 65 && sexo == "f" && edad >= 12 && edad <= 14 && altura >= 1.40 && altura <= 1.70) {
         cout << "Breakfast\n:" << endl;
         cout << "1 cup low-fat milk or calcium-fortified non-dairy milk" << endl;
         cout << "1 serving of low-sugar whole grain cereal" << endl;
@@ -43,7 +43,7 @@ void calcularDieta(int peso, string sexo, int edad, double altura) {
         cout << "1 serving of complex carbohydrates, such as potatoes or sweet potatoes\n" << endl;
         cout << "late night snack:\n" << endl;
         cout << "1 serving of complex carbohydrates, such as potatoes or sweet potatoes\n" << endl;
-    } else if (peso >= 66 && peso <= 80 && sexo == "m" && edad >= 15 && edad <= 20 && altura >= 1.66 && altura <= 1.90) {
+    } else if (peso >= 66 && peso <= 100 && sexo == "m" && edad >= 15 && edad <= 50 && altura >= 1.66 && altura <= 1.90) {
         cout << "Breakfast:\n" << endl;
         cout << "1 cup of cooked oatmeal with fresh fruits (such as banana or apple) and nuts." << endl;
         cout << "1 glass of skim milk or vegetable milk." << endl;
@@ -65,7 +65,7 @@ void calcularDieta(int peso, string sexo, int edad, double altura) {
         cout << "late night snack:\n" << endl;
         cout << "1 serving of fresh fruit (such as apple, pear, or orange)." << endl;
         cout << "1 serving of walnuts or almonds.\n" << endl;
-    } else if (peso >= 66 && peso <= 75 && sexo == "f" && edad >= 15 && edad <= 20 && altura >= 1.66 && altura <= 1.80) {
+    } else if (peso >= 66 && peso <= 100 && sexo == "f" && edad >= 15 && edad <= 50 && altura >= 1.66 && altura <= 1.90) {
         cout << "Breakfast:\n" << endl;
         cout << "1 serving of whole grain cereal with low-fat milk" << endl;
         cout << "1 fresh fruit, such as an apple or orange" << endl;
@@ -95,7 +95,7 @@ void calcularDieta(int peso, string sexo, int edad, double altura) {
 }
 
 void calcularRutina(int peso, string sexo, int edad, double altura) {
-    if (peso >= 45 && peso <= 65 && sexo == "m" && edad >= 12 && edad <= 14 && altura >= 1.45 && altura <= 1.65) {
+    if (peso >= 35 && peso <= 65 && sexo == "m" && edad >= 12 && edad <= 14 && altura >= 1.45 && altura <= 1.70) {
         cout << "Day 1: Strength exercises\n" << endl;
         cout << "1. Weight lifting with dumbbells: 3 series of 10 repetitions." << endl;
         cout << "You can start with a light weight and gradually increase as you feel more comfortable." << endl;
@@ -115,7 +115,7 @@ void calcularRutina(int peso, string sexo, int edad, double altura) {
         cout << "Day 3: Rest day or recreational activity\n" << endl;
         cout << "It is important to rest and allow your body to recover." << endl;
         cout << "You can take advantage of this day to do some recreational activity that you like, such as playing soccer, swimming or biking.\n" << endl;
-    } else if (peso >= 40 && peso <= 65 && sexo == "f" && edad >= 12 && edad <= 14 && altura >= 1.40 && altura <= 1.65) {
+    } else if (peso >= 35 && peso <= 65 && sexo == "f" && edad >= 12 && edad <= 14 && altura >= 1.40 && altura <= 1.70) {
         cout << "Day 1: Cardio Training\n" << endl;
         cout << "1. Warm-up: 5-10 minutes of light jogging, jumping rope, or dancing." << endl;
         cout << "2. Cardiovascular Activity: 20-30 minutes of moderate cardiovascular activity such as running, biking, swimming, or playing sports such as soccer or basketball." << endl;
@@ -142,7 +142,7 @@ void calcularRutina(int peso, string sexo, int edad, double altura) {
         cout << "3. Balance exercises: Practice balance exercises, such as standing on one foot or doing yoga, to improve stability and coordination.\n" << endl;
         cout << "4. Cool down: 5-10 minutes of light stretching.\n" << endl;
 
-    } else if (peso >= 66 && peso <= 80 && sexo == "m" && edad >= 15 && edad <= 20 && altura >= 1.66 && altura <= 1.90) {
+    } else if (peso >= 66 && peso <= 100 && sexo == "m" && edad >= 15 && edad <= 50 && altura >= 1.66 && altura <= 1.90) {
         cout << "Day 1: Weight training routine (upper body)\n" << endl;
         cout << "1. Bench press: 3-4 series of 8-10 repetitions" << endl;
         cout << "2. Pulldowns or Pulldowns: 3-4 sets of 8-10 reps" << endl;
@@ -164,7 +164,7 @@ void calcularRutina(int peso, string sexo, int edad, double altura) {
         cout << "Day 4: Active rest or yoga\n" << endl;
         cout << "5. Engage in low-intensity activities such as walking, stretching, or yoga to aid muscle recovery and reduce stress." << endl;
 
-    } else if (peso >= 66 && peso <= 75 && sexo == "f" && edad >= 15 && edad <= 20 && altura >= 1.61 && altura <= 1.80)
+    } else if (peso >= 66 && peso <= 100 && sexo == "f" && edad >= 15 && edad <= 50 && altura >= 1.61 && altura <= 1.90)
         cout << "Day 1: Strength training\n" << endl;
         cout << "1. Warm up: 5-10 minutes of light cardio, like jumping rope or jogging in place." << endl;
         cout << "2. Push-ups: 3 series of 10-12 repetitions." << endl;
@@ -230,6 +230,5 @@ int main() {
                 cout << "Invalid option. Try again." << endl;
         }
     }
-
     return 0;
 }
