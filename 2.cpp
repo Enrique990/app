@@ -97,13 +97,98 @@ void calcularDieta(int peso, string sexo, int edad, double altura) {
 
 void calcularRutina(int peso, string sexo, int edad, double altura) {
     if (peso >= 45 && peso <= 65 && sexo == "m" && edad >= 12 && edad <= 14 && altura >= 1.45 && altura <= 1.65) {
-        cout << "Recomendación de rutina de ejercicios para hombre de 12-14 años, peso 45-65 kg y altura 1.45-1.65 m" << endl;
+        cout << "Día 1: Ejercicios de fuerza" << endl;
+        cout << "1. Levantamiento de pesas con mancuernas: 3 series de 10 repeticiones." << endl;
+        cout << "Puedes comenzar con un peso ligero y aumentar progresivamente a medida que te sientas más cómodo." << endl;
+        cout << "2. Flexiones de pecho: 3 series de 10 repeticiones." << endl;
+        cout << "Si no puedes hacer flexiones completas, puedes hacerlas en tus rodillas o apoyarte en una superficie elevada, como una silla." << endl;
+        cout << "3. Sentadillas con peso corporal: 3 series de 12 repeticiones. " << endl;
+        cout << "Mantén la espalda recta y baja lentamente, manteniendo los talones en el suelo." << endl;
+        cout << "4. Curl de bíceps con mancuernas: 3 series de 10 repeticiones." << endl;
+        cout << "Utiliza un peso adecuado para tu nivel de fuerza." << endl;
+        cout << "Día 2: Ejercicios cardiovasculares" << endl;
+        cout << "1. Carrera o trote: 20-30 minutos." << endl;
+        cout << "Puedes correr al aire libre o en una cinta de correr si tienes acceso a una." << endl;
+        cout << "2. Salto de cuerda: 3 series de 1 minuto cada una." << endl;
+        cout << "Puedes ajustar la velocidad para que sea un desafío adecuado para ti." << endl;
+        cout << "3. Burpees: 3 series de 10 repeticiones." << endl;
+        cout << "Comienza en posición de cuclillas, luego lleva los pies hacia atrás para hacer una flexión de brazos, salta hacia adelante y salta hacia arriba con los brazos extendidos." << endl;
+        cout << "Día 3: Día de descanso o actividad recreativa" << endl;
+        cout << "Es importante descansar y permitir que tu cuerpo se recupere." << endl;
+        cout << "Puedes aprovechar este día para hacer alguna actividad recreativa que te guste, como jugar fútbol, ​​nadar o andar en bicicleta." << endl;
     } else if (peso >= 40 && peso <= 65 && sexo == "f" && edad >= 12 && edad <= 14 && altura >= 1.40 && altura <= 1.65) {
-        cout << "Recomendación de rutina de ejercicios para mujer de 12-14 años, peso 40-60 kg y altura 1.40-1.60 m" << endl;
+        cout << "Día 1: Entrenamiento cardiovascular" << endl;
+        cout << "1. Calentamiento: 5-10 minutos de trote ligero, saltar la cuerda o bailar." << endl;
+        cout << "2. Actividad cardiovascular: 20-30 minutos de actividad cardiovascular moderada, como correr, andar en bicicleta, nadar o practicar deportes como fútbol o baloncesto." << endl;
+        cout << "3. Enfriamiento: 5-10 minutos de estiramientos suaves." << endl;
+        cout << "Día 2: Entrenamiento de fuerza" << endl;
+        cout << "1. Calentamiento: 5-10 minutos de actividad cardiovascular suave." << endl;
+        cout << "2. Ejercicios de fuerza: Realice 2-3 series de 10-15 repeticiones de cada uno de los siguientes ejercicios, usando un peso adecuado o el peso corporal:" << endl;
+        cout << "3. Sentadillas" << endl;
+        cout << "4. Flexiones de brazos (adaptadas o de rodillas si es necesario)" << endl;
+        cout << "5. Peso muerto con mancuernas (opcional)" << endl;
+        cout << "6. Remo con mancuernas (opcional)" << endl;
+        cout << "7. Plancha (para fortalecer el core)" << endl;
+        cout << "8. Enfriamiento: 5-10 minutos de estiramientos suaves." << endl;
+        cout << "Día 3: Descanso activo o actividad recreativa" << endl;
+        cout << "1. Descanso activo: Paseo en bicicleta, caminata o yoga suave para ayudar a recuperarse del ejercicio y mantener activa." << endl;
+        cout << "2. Actividad recreativa: Participar en actividades recreativas al aire libre, como jugar al fútbol, ​​andar en patineta o patinar en línea." << endl;
+        cout << "Día 4: Entrenamiento cardiovascular" << endl;
+        cout << "1. Calentamiento: 5-10 minutos de actividad cardiovascular suave." << endl;
+        cout << "2. Actividad cardiovascular: 20-30 minutos de actividad cardiovascular moderada, como correr, andar en bicicleta, nadar o practicar deportes como fútbol o baloncesto." << endl;
+        cout << "3. Enfriamiento: 5-10 minutos de estiramientos suaves." << endl;
+        cout << "Día 5: Entrenamiento de flexibilidad y equilibrio" << endl;
+        cout << "1. Calentamiento: 5-10 minutos de actividad cardiovascular suave." << endl;
+        cout << "2. Ejercicios de flexibilidad: Realice ejercicios de estiramientos estáticos para los principales grupos musculares, como piernas, brazos, espalda y torso. Mantener cada estiramiento durante 15-30 segundos." << endl;
+        cout << "3. Ejercicios de equilibrio: Practicar ejercicios de equilibrio, como estar parada en un solo pie o hacer yoga, para mejorar la estabilidad y la coordinación." << endl;
+        cout << "4. Enfriamiento: 5-10 minutos de estiramientos suaves." << endl;
+
     } else if (peso >= 66 && peso <= 80 && sexo == "m" && edad >= 15 && edad <= 20 && altura >= 1.66 && altura <= 1.90) {
-        cout << "Recomendación de rutina de ejercicios para hombre de 15-20 años, peso 67-80 kg y altura 1.66-1.90 m" << endl;
+        cout << "Día 1: Rutina de entrenamiento con pesas (parte superior del cuerpo)" << endl;
+        cout << "1. Prensa de banca: 3-4 series de 8-10 repeticiones" << endl;
+        cout << "2. Dominadas o jalones de polea: 3-4 series de 8-10 repeticiones" << endl;
+        cout << "3. Press de hombros con mancuernas: 3-4 series de 8-10 repeticiones" << endl;
+        cout << "4. Remo con barra: 3-4 series de 8-10 repeticiones" << endl;
+        cout << "5. Curl de bíceps con mancuernas: 3 series de 10-12 repeticiones" << endl;
+        cout << "7. Extensión de tríceps con polea: 3 series de 10-12 repeticiones" << endl;
+        cout << "Día 2: Rutina de entrenamiento con pesas (parte inferior del cuerpo)" << endl;
+        cout << "1. Sentadillas con barra: 3-4 series de 8-10 repeticiones" << endl;
+        cout << "2. Peso muerto: 3-4 series de 8-10 repeticiones" << endl;
+        cout << "3. Zancadas con mancuernas: 3-4 series de 10-12 repeticiones (cada pierna)" << endl;
+        cout << "4. Elevacion de pantorrillas en maquina: 3-4 series de 12-15 repeticiones" << endl;
+        cout << "5. Abdominales: 3 series de 15-20 repeticiones (puedes elegir el ejercicio de abdominales que prefieres, como crunches, Russian twists, etc.)" << endl;
+        cout << "Día 3: Rutina de entrenamiento cardiovascular" << endl;
+        cout << "1. Correr o hacer jogging en una cinta de correr: 30-40 minutos" << endl;
+        cout << "2. Ciclismo en bicicleta estática: 30-40 minutos" << endl;
+        cout << "3. Saltar la cuerda: 10-15 minutos" << endl;
+        cout << "4. Otra actividad cardiovascular de tu elección, como nadar, practicar deportes de equipo, etc.: 30-40 minutos" << endl;
+        cout << "Día 4: Descanso activo o yoga" << endl;
+        cout << "5. Realice actividades de baja intensidad como caminar, estirar o hacer yoga para ayudar en la recuperación muscular y reducir el estrés." << endl;
+
     } else if (peso >= 66 && peso <= 75 && sexo == "f" && edad >= 15 && edad <= 20 && altura >= 1.61 && altura <= 1.80)
-        cout << "Recomendación de rutina de ejercicios para hombre de 15-20 años, peso 67-80 kg y altura 1.66-1.90 m" << endl;
+        cout << "Día 1: Entrenamiento de fuerza" << endl;
+        cout << "1. Calentamiento: 5-10 minutos de cardio ligero, como saltar a la cuerda o hacer jogging en su lugar." << endl;
+        cout << "2. Flexiones de brazos: 3 series de 10-12 repeticiones." << endl;
+        cout << "3. Flexiones de brazos: 3 series de 10-12 repeticiones." << endl;
+        cout << "4. Peso muerto con mancuernas: 3 series de 10-12 repeticiones." << endl;
+        cout << "5. Press de hombros con mancuernas: 3 series de 10-12 repeticiones." << endl;
+        cout << "Plancha: 3 series de 30-60 segundos." << endl;
+        cout << "1. Enfriamiento: Estiramientos estáticos de los principales grupos musculares durante 5-10 minutos." << endl;
+        cout << "Día 2: Cardio y entrenamiento de intervalos" << endl;
+        cout << "2. Calentamiento: 5-10 minutos de cardio moderado, como correr o andar en bicicleta." << endl;
+        cout << "3. Entrenamiento de intervalos: 30 segundos de actividad de alta intensidad, como saltar o correr en su lugar, seguido de 30 segundos de descanso. Repite durante 15-20 minutos." << endl;
+        cout << "4. Ejercicio de cardio de elección: Correr, andar en bicicleta, nadar u otra actividad cardiovascular de tu elección durante 20-30 minutos." << endl;
+        cout << "5. Enfriamiento: Estiramientos dinámicos y estáticos durante 5-10 minutos." << endl;
+        cout << "Día 3: Entrenamiento de cuerpo completo" << endl;
+        cout << "1. Calentamiento: 5-10 minutos de cardio ligero." << endl;
+        cout << "2. Burpees: 3 series de 10-12 repeticiones." << endl;
+        cout << "3. Levantamiento de piernas en posición supina: 3 series de 12-15 repeticiones." << endl;
+        cout << "4. Pull-ups asistidos o remo con mancuernas: 3 series de 10-12 repeticiones." << endl;
+        cout << "5. Curl de bíceps con mancuernas: 3 series de 10-12 repeticiones." << endl;
+        cout << "7. Extensión de tríceps con mancuernas: 3 series de 10-12 repeticiones." << endl;
+        cout << "8. Abdominales: 3 series de 15-20 repeticiones." << endl;
+        cout << "9. Enfriamiento: Estiramientos estáticos durante 5-10 minutos." << endl;
+        cout << "Día 4: Descanso activo o actividad de baja intensidad, como yoga o caminatas suaves." << endl;
 }
 
 int main() {
