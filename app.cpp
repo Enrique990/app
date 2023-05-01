@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 
 #include <iostream>
@@ -234,5 +235,6 @@ int main() {
                 cout << "Invalid option. Try again." << endl;
         }
     }
+    getch();
     return 0;
 }
